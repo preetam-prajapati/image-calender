@@ -16,3 +16,8 @@ body{
   text-align: center;
   position: relative
 }
+
+.hoverEffect:hover{
+  background-color:transparent !important;
+  color: black !important;
+}

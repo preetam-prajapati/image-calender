@@ -10,7 +10,7 @@ const DayCard = ({ data }) => {
       <h1 className={`${data.card_color ? "text-info " : "text-muted"} `}>
         {data.day_of_the_month}
       </h1>
-      <div className={`${data.card_color ? "bg-info text-light" : ""} p-2`}>
+      <div className={`${data.card_color ? "bg-info text-light " : ""} p-2 hoverEffect`}>
         <h4>{data.card_header}</h4>
         <p>{data.card_body}</p>
         <div className="text-center">
